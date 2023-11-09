@@ -1,0 +1,111 @@
+* About Section */
+.about {
+  margin: 3rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-header {
+  text-align: start;
+}
+@media (max-width: 576px) {
+  .about-header {
+    text-align: center;
+  }
+}
+.about-header h1 {
+  font-weight: 800;
+  font-size: 3.2rem;
+  color: #00095b;
+  padding: 0 70px; 
+
+}
+.about-content h1 {
+  font-weight: 800;
+  font-size: 3.2rem;
+  color: #00095b;
+  padding: 0 70px; 
+
+}
+.about-content p {
+  color: #000000;
+  font-size: 2.2rem;
+
+  text-align: justify; /* justify text */
+  margin: 20px 0; /* add margin top and bottom */
+  padding: 0 70px; /* add
+}
+/* Contact SEction */
+.contact h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #1e56a0;
+  padding: 0 50px; 
+
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px 2em;
+}
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-left h4 {
+  font-weight: 700;
+  color: #181b2c;
+}
+.flex-item-left p {
+  font-weight: 400;
+  color: #181b2c;
+  text-align: justify;
+  padding-left: 30px;
+
+}
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right form {
+  margin: 10px;
+}
+.flex-item-right form input[type="text"],
+select,
+textarea {
+  font-weight: 400;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.flex-item-right button {
+  background-color: #1e56a0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 100%;
+}
+.flex-item-right button:hover,
+.flex-item-right button:focus {
+  background-color: #163172;
+  color: white;
+}
+@media (max-width: 800px) {
+  .flex-item-left,
+  .flex-item-right {
+    flex: 100%;
+  }
+}

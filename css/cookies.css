@@ -1,0 +1,29 @@
+.cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.849);
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+
+.cookies__boton {
+    background: initial;
+    border: 2px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    width: 5rem;
+    text-align: center;
+}
+
+.cookies p{
+    color: aliceblue;
+}
+
+.cookies h2{
+    color: aliceblue;
+}
+
